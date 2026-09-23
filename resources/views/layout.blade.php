@@ -54,7 +54,7 @@
 </main>
 
 <footer class="bg-slate-900 text-slate-400 text-center py-6 text-sm border-t border-slate-800">
-    <p>&copy; {{ date('Y') }} ÉireWeather App. Developed with Laravel & OpenWeatherMap.</p>
+    <p>&copy; {{ date('Y') }} weather-tomorrow.ie copyright</p>
 </footer>
 
 <!-- 1. Safely pass Laravel data to JavaScript globally -->
