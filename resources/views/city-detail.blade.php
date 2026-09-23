@@ -56,7 +56,33 @@
 
 <!-- Main Content -->
 <main class="max-w-4xl mx-auto w-full p-4 my-8 flex-grow">
-    <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 border border-slate-200/80 p-6 md:p-10 relative overflow-hidden">
+        <!-- TOP LEADERBOARD AD SLOT -->
+<a href="https://manualhandling-ireland.ie/" target="_blank" class="w-full bg-white/95 backdrop-blur border border-slate-300 rounded-2xl p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg hover:border-emerald-500 transition duration-200 block group">
+    
+    <!-- Logo & Ad Badge -->
+    <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-start">
+        <div class="flex items-center gap-2.5">
+            <span class="text-xs uppercase font-black tracking-wider text-emerald-800 bg-emerald-100 px-2.5 py-1 rounded-md">AD</span>
+            <img src="{{ asset('mhLogo.png') }}" alt="Manual Handling Ireland Logo" class="h-10 sm:h-12 w-auto object-contain">
+        </div>
+    </div>
+
+    <!-- Center: Much Larger Ad Text -->
+    <div class="text-center sm:text-left flex-1">
+        <p class="text-base sm:text-lg font-black text-slate-900 group-hover:text-emerald-700 transition duration-200 leading-tight">Manual Handling Ireland — 30 Min Online Course</p>
+        <p class="text-sm sm:text-base font-semibold text-slate-700 mt-1">100% Online, RoSPA Approved & HSA Compliant. Get certified instantly!</p>
+    </div>
+
+    <!-- Action Button (Now acts as a styled visual indicator) -->
+    <div class="w-full sm:w-auto flex-shrink-0">
+        <span class="bg-emerald-600 group-hover:bg-emerald-700 text-white text-base font-black px-6 py-3.5 rounded-xl transition duration-200 shadow-md block text-center">
+            Start Now
+        </span>
+    </div>
+
+</a>
+
+    <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 border border-slate-200/80 p-6 md:p-10 relative overflow-hidden mt-6">
 
         <div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-slate-50 pointer-events-none"></div>
 
